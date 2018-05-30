@@ -22,7 +22,9 @@ namespace Control
         {
             foreach (SampleDataGroup group in dataSource.Data.Groups)
             {
-                //esto es ub comentario
+                //esto es ub comentario 
+                //No quiero modificar
+
                 tileContainer.Buttons.Add(new DevExpress.XtraBars.Docking2010.WindowsUIButton(group.Title, null, -1, DevExpress.XtraBars.Docking2010.ImageLocation.AboveText, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, null, true, -1, true, null, false, false, true, null, group, -1, false, false));
                 PageGroup pageGroup = new PageGroup();
                 pageGroup.Parent = tileContainer;
